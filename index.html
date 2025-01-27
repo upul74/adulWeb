@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adult Content Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    
+
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="categories.html">Categories</a>
+            <h1>Your Website</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Categories</a>
+            <a href="#">Upload</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Your Website</h1>
+        <p>Explore a wide range of videos and content.</p>
+    </section>
+    <section class="upload-video">
+        <h2>Upload Your Video</h2>
+        <form id="uploadForm" enctype="multipart/form-data" action="http://localhost:3000/upload" method="POST">
+            <label for="videoTitle">Video Title:</label>
+            <input type="text" id="videoTitle" name="videoTitle" placeholder="Enter video title" required>
+        
+            <label for="videoFile">Choose a Video:</label>
+            <input type="file" id="videoFile" name="videoFile" accept="video/mp4,video/avi,video/mkv" required>
+        
+            <button type="submit">Upload Video</button>
+        </form>
+        <div id="uploadStatus"></div>
+    </section>
+    <section class="uploaded-videos">
+        <h2>Uploaded Videos</h2>
+        <div id="videoList">
+            <div class="video-card">
+                <h3>Video Title 1</h3>
+                <video width="320" height="240" controls>
+                    <source src="backend/uploads/1737982106137.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-card">
+                <h3>Video Title 2</h3>
+                <video width="320" height="240" controls>
+                    <source src="backend/uploads/1737982878308.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="featured-videos">
+        <h2>Featured Videos</h2>
+        <div class="video-grid">
+            <div class="video-card">
+                <h3>Video Title 3</h3>
+                <iframe width="300" height="315" src="https://hqporner.com/hdporn/119988-never_say_you_dont_get_presents_son.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Video Title 4</h3>
+                <iframe width="300" height="315" src="https://hqporner.com/hdporn/118761-these_MILFs_are_outta_hand.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Video Title 5</h3>
+                <iframe width="300" height="315" src="https://hqporner.com/hdporn/118363-Pizza_guy_tipped_with_a_stuck_ass.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Video Title 6</h3>
+                <iframe width="300" height="315" src="https://hqporner.com/hdporn/113930-medical_ass-istance_required.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Video Title 7</h3>
+                <iframe width="300" height="315" src="https://hqporner.com/hdporn/111980-getting_some_hammock_ass.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Video Title 8</h3>
+                <iframe width="300" height="315" src="https://hqporner.com/hdporn/111115-sneaky_anal_soiree.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-card">
+                <h3>Video Title 9</h3>
+                <iframe width="300" height="315" src="https://hqporner.com/hdporn/110509-double_timing_MILF_4K.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Website Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
